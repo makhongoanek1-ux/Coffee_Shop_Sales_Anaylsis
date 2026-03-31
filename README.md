@@ -62,8 +62,11 @@ Based on the sales insights, here are actionable strategies to drive revenue and
 
 ## 🛠️ Tools & Technologies
 - **SQL (Standard)**
-- **Snowflake Cloud Platform**
+- **Databricks**
 - **MS Excel**
+- **Miro**
+- **PowerPoint**
+  
   
 
 
