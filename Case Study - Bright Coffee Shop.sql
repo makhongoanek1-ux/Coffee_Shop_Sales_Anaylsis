@@ -50,8 +50,7 @@ SELECT
     CASE 
         WHEN HOUR(Transaction_time) BETWEEN 6 AND 11 THEN 'Morning'
         WHEN HOUR(Transaction_time) BETWEEN 12 AND 16 THEN 'Afternoon'
-        WHEN HOUR(Transaction_time) BETWEEN 17 AND 19 THEN 'Evening'
-        ELSE 'Night'
+        WHEN HOUR(Transaction_time) BETWEEN 17 AND 20 THEN 'Evening'
     END AS Time_bucket,
 
     COUNT(*) AS Total_transactions,
